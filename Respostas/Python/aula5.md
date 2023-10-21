@@ -62,9 +62,9 @@ print(nPalavras)
 ~~~py
 from functools import reduce
 
-numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+num = [500,3,7,8,9]
 
-soma = reduce(lambda x, y: x + y, numeros)
+soma = reduce(lambda x,y: max(x,y), num)
 
 print(soma)
 ~~~
